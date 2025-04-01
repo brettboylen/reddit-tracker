@@ -1,4 +1,4 @@
-.PHONY: build run test clean
+.PHONY: build run test
 
 # Variables
 APP_NAME=reddit-tracker
