@@ -1,0 +1,8 @@
+**/.DS_Store
+
+*.db
+*.log
+reddit-tracker
+
+# don't commit sensitive .env files
+.env 
