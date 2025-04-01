@@ -12,7 +12,7 @@ This project demonstrates several implementation decisions worth highlighting:
 
 - **Multiple Subreddit Support**: The application technically supports tracking multiple subreddits via a comma-separated list in the `.env` file. This feature should be considered experimental as it hasn't been rigorously tested.
 
-- **Kubernetes Ready**: I added a `/healthz` endpoint specifically for Kubernetes liveliness probe;  in practive, we'd likely need a readiness endpoint as well if we were pushing to k8s.
+- **Kubernetes Ready**: I added a `/healthz` endpoint specifically for Kubernetes liveliness probe;  in practice, we'd likely need a readiness endpoint as well if we were pushing to k8s.
 
 ## Features
 
